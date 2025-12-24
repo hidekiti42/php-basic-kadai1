@@ -1,1 +1,1 @@
-# php-basic-kadai1
+# php-basic-kadai
