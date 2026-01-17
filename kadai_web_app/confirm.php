@@ -1,10 +1,9 @@
 <?php
 // POSTリクエストから入力データを取得
-$name = $_POST['user_name'];
-$email = $_POST['user_email'];
-$gender = $_POST['user_gender'];
-$category = $_POST['category'];
-$message = $_POST['message'];
+$name = $_POST['employee_name'];
+$age = $_POST['employee_age'];
+$department = $_POST['department'];
+
 ?>
 
 
@@ -27,24 +26,16 @@ $message = $_POST['message'];
             <th>入力項目</th>
         </tr>
         <tr>
-            <td>お名前</td>
+            <td>社員名</td>
             <td><?php echo $name; ?></td>
         </tr>
         <tr>
-            <td>メールアドレス</td>
-            <td><?php echo $email; ?></td>
+            <td>年齢</td>
+            <td><?php echo $age; ?></td>
         </tr>
         <tr>
-            <td>性別</td>
-            <td><?php echo $gender; ?></td>
-        </tr>
-        <tr>
-            <td>お問い合わせ種別</td>
-            <td><?php echo $category; ?></td>
-        </tr>
-        <tr>
-            <td>お問い合わせ内容</td>
-            <td><?php echo $message; ?></td>
+            <td>所属部署</td>
+            <td><?php echo $department; ?></td>
         </tr>
     </table>
 
